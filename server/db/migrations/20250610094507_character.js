@@ -4,9 +4,10 @@ export async function up(knex) {
     table.string('character_name')
     table.string('description')
     table.string('class')
+    table.string('level')
   })
 }
 
 export async function down(knex) {
-  return knex.schema.dropTable('fruit')
+  return knex.schema.dropTable('character')
 }
