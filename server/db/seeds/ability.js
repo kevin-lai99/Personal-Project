@@ -86,6 +86,27 @@ export async function seed(knex) {
       description: `After doing damage, you can spend 3 Chi to gain health up to half the damage done. (+6 Phy dmg)`,
     },
     {
+      character_id: 3,
+      ability_name: `Advanced Bull Proficiency`,
+      cost: 0,
+      description: `You can wield a Heavy 2-Handed weapon in one hand. 
+      If you continue to carry a 2-Handed weapon with 2 Hands, +2 Damage to it and gain 5 ft of Reach.`,
+    },
+    {
+      character_id: 3,
+      ability_name: `Legendary Warrior`,
+      cost: 3,
+      description: `Mercenaries and bandits have heard your feats and heroics. Some may gather a band of
+      warriors who are willing to fight under your command and assist you. The quality of their warriors may be questionable however.
+      Famed warriors may also seek you out for a duel to test your skill.`,
+    },
+    {
+      character_id: 3,
+      ability_name: `Berserker A`,
+      cost: 0,
+      description: `For every 5 HP that you are missing, gain 1 Rage at the start of your turn.`,
+    },
+    {
       character_id: 4,
       ability_name: `Final Rites`,
       cost: 0,
@@ -106,6 +127,19 @@ export async function seed(knex) {
       They can be in a shape of a person, animal or object. Your Rabbit Techniques can originate from your Spirit Guardian. 
       During your turn, your Spirit Guardian is able to move up to its movement speed along with you. 
       Your Spirit Guardian must stay within 50ft. of your character.`,
+    },
+    {
+      character_id: 4,
+      ability_name: `Way of the Boundless Heaven A`,
+      cost: 0,
+      description: `Whenever you use a Divine Heaven Technique, all allies within 30ft. Of your Guardian Spirit gain 3 HP.`,
+    },
+    {
+      character_id: 4,
+      ability_name: `Spirit Vision and Language`,
+      cost: 0,
+      description: `You are able to see spirits and converse with them. 
+      You are also able to communicate with animals and plants, although their conversations might be more basic.`,
     },
   ])
 }
