@@ -4,6 +4,7 @@ export async function up(knex) {
     table.string('character_name')
     table.string('description')
     table.string('class')
+    table.string('level')
   })
 }
 

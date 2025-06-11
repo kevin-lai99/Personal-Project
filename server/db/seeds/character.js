@@ -15,6 +15,7 @@ export async function seed(knex) {
       The sound of Osas jr's music speaks to his soul. 
       Sometimes he feels like he should be an imp with a fork`,
       class: 'Path of the Dragon',
+      level: 12,
     },
     {
       character_id: 2,
@@ -28,6 +29,7 @@ export async function seed(knex) {
        He eventually found traces of the truth in his ancestor's non-betrayal history and resigned from the army and have a 
        change of scenery as a wanderer...`,
       class: 'Path of the Wolf',
+      level: 12,
     },
     {
       character_id: 3,
@@ -45,6 +47,7 @@ export async function seed(knex) {
        journey to find out what happened while Princess searches for her brother. Both will set out on their mission before they
         can get married and spread the words of Yesu together.`,
       class: 'Path of the Bull',
+      level: 12,
     },
     {
       character_id: 4,
@@ -58,6 +61,7 @@ export async function seed(knex) {
       Though she may seem young, she has the passion to restore the empire of Qi, at least to a state of peace.
       Doesn't like to talk much, nor show expressions.`,
       class: 'Path of the Rabbit',
+      level: 12,
     },
   ])
 }
