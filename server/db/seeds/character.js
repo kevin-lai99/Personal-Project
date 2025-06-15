@@ -16,6 +16,7 @@ export async function seed(knex) {
       Sometimes he feels like he should be an imp with a fork`,
       class: 'Path of the Dragon',
       level: 12,
+      icon: '/kashimo.png',
     },
     {
       character_id: 2,
@@ -30,6 +31,7 @@ export async function seed(knex) {
        change of scenery as a wanderer...`,
       class: 'Path of the Wolf',
       level: 12,
+      icon: '/daifuku.png',
     },
     {
       character_id: 3,
@@ -48,6 +50,7 @@ export async function seed(knex) {
         can get married and spread the words of Yesu together.`,
       class: 'Path of the Bull',
       level: 12,
+      icon: '/dabow.png',
     },
     {
       character_id: 4,
@@ -62,6 +65,7 @@ export async function seed(knex) {
       Doesn't like to talk much, nor show expressions.`,
       class: 'Path of the Rabbit',
       level: 12,
+      icon: '/kagura.png',
     },
   ])
 }

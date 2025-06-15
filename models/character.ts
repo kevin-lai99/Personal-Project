@@ -3,6 +3,7 @@ export interface characterData {
   description: string
   class: string
   level: number
+  icon: string
 }
 
 export interface Character extends characterData {
